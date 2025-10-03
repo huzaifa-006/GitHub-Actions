@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  notes-app:
+    image: huzaifa5/notes-app:latest
+    ports:
+      - "5001:5000"

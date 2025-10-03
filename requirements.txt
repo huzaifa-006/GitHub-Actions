@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 flask
+=======
+flask
+
+>>>>>>> 4f2a754 (Initial commit with creation of app.py and docker-compose and docker-build)
