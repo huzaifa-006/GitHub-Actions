@@ -10,7 +10,7 @@ def shorten():
 		return "Please provide aURL"
 	short_key = str(len(urls) + 1)
 	urls[short_key] = original_url
-	return f"Shortened URL: /{short_key}
+	return f"Shortened URL: /{short_key}"
 
 @app.route('/<key>')
 def redirect_url(key):
